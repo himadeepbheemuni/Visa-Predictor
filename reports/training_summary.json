@@ -1,0 +1,40 @@
+{
+  "best_model": "gradient_boosting",
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.7026,
+      "f1_score": 0.8126,
+      "roc_auc": 0.6734
+    },
+    "decision_tree": {
+      "accuracy": 0.7405,
+      "f1_score": 0.8211,
+      "roc_auc": 0.7598
+    },
+    "random_forest": {
+      "accuracy": 0.7525,
+      "f1_score": 0.8282,
+      "roc_auc": 0.7885
+    },
+    "gradient_boosting": {
+      "accuracy": 0.7552,
+      "f1_score": 0.8283,
+      "roc_auc": 0.7857
+    }
+  },
+  "feature_importance": {
+    "education_of_employee": 0.4328,
+    "unit_of_wage": 0.1504,
+    "has_job_experience": 0.1367,
+    "continent": 0.1018,
+    "region_of_employment": 0.0564,
+    "prevailing_wage": 0.0513,
+    "no_of_employees": 0.0384,
+    "company_age": 0.0144,
+    "full_time_position": 0.0116,
+    "requires_job_training": 0.0063
+  },
+  "n_train": 20897,
+  "n_test": 5225,
+  "training_time_seconds": 11.06
+}
